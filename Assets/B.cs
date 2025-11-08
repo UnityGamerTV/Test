@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class B : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
+    {
+        Test1();
+    }
+
+    void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void Test1()
     {
-        
+        Debug.Log("Test1");
     }
 }
